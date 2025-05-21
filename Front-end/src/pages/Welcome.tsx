@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> b61f4638d4934fce659e8ebce08f9e0e46ba6d16
 import React, { useEffect, useState } from 'react';
 import { Button } from "@/components/ui/button";
 import { useNavigate } from 'react-router-dom';
@@ -84,7 +87,11 @@ const Welcome = () => {
       return () => clearInterval(expressionInterval);
     }
   }, [typingComplete]);
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> b61f4638d4934fce659e8ebce08f9e0e46ba6d16
   const handleNextClick = () => {
     navigate('/chatbot');
   };
@@ -128,7 +135,11 @@ const Welcome = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> b61f4638d4934fce659e8ebce08f9e0e46ba6d16
       <div className="w-full max-w-md mx-auto text-center mb-10">
         <h1 className="text-3xl font-medium text-aegis-purple mb-2">
           Aegis Security
@@ -138,14 +149,22 @@ const Welcome = () => {
           <span className={`inline-block w-2 h-5 bg-white ml-1 ${typingComplete ? 'animate-pulse' : 'animate-[blink_1s_step-end_infinite]'}`}></span>
         </p>
       </div>
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> b61f4638d4934fce659e8ebce08f9e0e46ba6d16
       <Button 
         onClick={handleNextClick}
         className="w-full max-w-md bg-aegis-purple hover:bg-aegis-purple/90 text-white rounded-full py-6"
       >
         Prosseguir
       </Button>
+<<<<<<< HEAD
       
+=======
+
+>>>>>>> b61f4638d4934fce659e8ebce08f9e0e46ba6d16
       <p className="text-white/60 text-sm mt-6 text-center max-w-md">
         O Aegis utiliza criptografia avançada para proteger seus dados.
         Suas informações nunca são compartilhadas com terceiros.
@@ -154,4 +173,8 @@ const Welcome = () => {
   );
 };
 
+<<<<<<< HEAD
 export default Welcome;
+=======
+export default Welcome;
+>>>>>>> b61f4638d4934fce659e8ebce08f9e0e46ba6d16
